@@ -1,24 +1,26 @@
 import React from 'react';
+import Logo from '../assets/logo.svg';
 
 const NavBar = () => {
-
-  const navItems = ["Features" , "Team", "Sign In"]
+  const navItems = ['Features', 'Team', 'Sign In'];
   return (
-    <nav className="navbar">
-      <a href="#" className="navbar-brand">
-        <img className="nav-logo" src="./images/logo.svg" alt="" />
-      </a>
+    <div className='row'>
+      <nav className="raleway container">
+        <a href="#" className="">
+          <img className="nav-logo" src={Logo} alt="" />
+        </a>
 
-      <ul className="navbar navbar-nav">
-        {navItems.map((item) => (
-          <li className="nav-item">
-            <a className="nav-link" href="#">
-              {item}
-            </a>
-          </li>
-        ))}
-      </ul>
-    </nav>
+        <ul className="navbar-nav">
+          {navItems.map((item) => (
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                {item}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </div>
   );
 };
 
