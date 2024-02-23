@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-one: hsl(243, 87%, 12%);
+  --primary-two: hsl(238, 22%, 44%);
+  --accent-one: hsl(224, 93%, 58%);
+  --acent-two: hsl(170, 45%, 43%);
+  --neutral-one: hsl(240, 75%, 98%);
+  --neutral-two: hsl(0, 0%, 75%);
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 0.6rem 2.6rem;
+  background-color: var(--accent-one);
+  border-radius: 2px;
+  color: var(--neutral-one);
+}
+
+input {
+  padding: 0.85rem 0.3rem;
+}/*# sourceMappingURL=main.css.map */

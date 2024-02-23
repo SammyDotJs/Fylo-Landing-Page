@@ -1,0 +1,139 @@
+.navbar {
+  background: white !important;
+  box-shadow: none;
+  padding-top: 5vh;
+}
+.nav-item,
+.nav-link {
+  padding-left: 4vw;
+  color: hsl(243, 87%, 12%);
+  font-weight: 400;
+  font-size: 1.2vw;
+}
+.nav-logo {
+  width: 10vw;
+}
+.h1 {
+  font-weight: 900;
+  line-height: 8vh;
+  font-size: 2.7vw;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+}
+main {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.container-fluid {
+  width: 50%;
+  margin-left: 0;
+  position: relative;
+  top: 20vh;
+}
+.sub-h1 {
+  text-align: left;
+  font-size: 1.3vw;
+  font-weight: 500;
+}
+.form-inline {
+  width: 100%;
+  margin-top: 3vh;
+}
+.form-control {
+  display: inline-block;
+  width: 25vw !important;
+  height: 3rem;
+  border: 1px solid black;
+  height: 4rem;
+}
+.form-control::placeholder {
+  color: hsl(0, 0%, 75%);
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.btn {
+  width: 30%;
+  height: 4rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 1vw;
+  border-radius: 4px;
+}
+.btn-primary {
+  background: hsl(224, 93%, 58%) !important;
+}
+.btn-primary:hover {
+  background: hsla(224, 93%, 58%, 0.562) !important;
+}
+.illustration-1 {
+  width: 50%;
+  display: flex;
+  margin-left: auto;
+  position: relative;
+  top: -25vh;
+}
+.illustration-2 {
+  width: 40%;
+  display: flex;
+  margin-left: auto;
+  position: relative;
+  margin-right: 4vw;
+  top: -30vh;
+}
+.bg-curve {
+  width: 100vw;
+  position: relative;
+  margin-left: -6vw !important;
+  transform: translateY(-70%);
+}
+.section-2 {
+  position: relative;
+  top: 5vh;
+  background: rgb(248, 248, 254);
+  margin-left: -6vw !important;
+  padding-left: 6vw;
+  width: 100vw;
+}
+.h1-2 {
+  width: 50%;
+}
+.sub-h1-2 {
+  width: 46%;
+  position: relative;
+  font-weight: 500;
+}
+.icon-arrow {
+  width: 1.3vw;
+}
+
+use:hover {
+  fill: #95dbd0;
+}
+.fylo-link {
+  color: hsl(170, 45%, 43%);
+  font-weight: 400;
+  text-decoration-line: underline;
+  text-underline-offset: 1vh;
+}
+.fylo-link:hover {
+  color: #95dbd0;
+  fill: #95dbd0;
+  text-decoration-line: underline;
+  text-underline-offset: 1vh;
+}
+
+.fylo-span:hover {
+  color: #95dbd0;
+  fill: #95dbd0;
+  text-decoration-line: underline;
+  text-underline-offset: 1vh;
+}
+/* .fylo-span{
+  border-bottom: 1px solid;
+  width: fit-content;
+  padding-bottom: 1vh;
+  color: hsl(170, 45%, 43%);
+
+} */
