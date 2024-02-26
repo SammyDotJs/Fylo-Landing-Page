@@ -7,7 +7,7 @@ const Hero_two = () => {
   return (
     <>
       <img src={bgCurve} className="bgCurve" />
-      <div className="row hero-two raleway">
+      <div className="row hero-two">
         <div className="container hero-two">
           <div className="col">
             <h1 className="header-one raleway raleway-700">
@@ -27,7 +27,7 @@ const Hero_two = () => {
             </a>
             <div className="card">
               <div className="col">
-                <span className="quote">&ldquo;</span>
+                <span className="quote">&#8220;</span>
                 <p className="testimonial-text">
                   Fylo has improved our team productivity by an order of
                   magnitude. Since making the switch our team has become a
